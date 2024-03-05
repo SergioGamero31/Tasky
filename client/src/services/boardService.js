@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/board'
+const API_URL = `${import.meta.env.VITE_API_URL}/api/board`
 
 const createBoard = async (title, color, token) => {
   const res = await fetch(`${API_URL}/create-board`, {

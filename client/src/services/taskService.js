@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/task'
+const API_URL = `${import.meta.env.VITE_API_URL}/api/task`
 
 const createTask = async (token, title, columnId) => {
   const res = await fetch(`${API_URL}/create-task`, {
