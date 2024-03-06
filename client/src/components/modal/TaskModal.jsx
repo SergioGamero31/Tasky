@@ -105,7 +105,7 @@ const TaskModal = ({ openModal, closeModal, task }) => {
             value={newTask.description}
             onChange={e => updateProperty('description', e.target.value)}
             onBlur={updateTask}
-            maxLength='80'
+            maxLength='160'
             className='h-28 p-3 rounded-lg resize-none focus-within:outline outline-azure-400 bg-slate-200 dark:bg-vulcan'
           />
         </div>
