@@ -1,8 +1,20 @@
-# React + Vite
+# Tasky
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Captura de pantalla 2024-03-20 210115](https://github.com/SergioGamero31/Tasky/assets/64720452/11ade9fe-e64f-4fd6-820d-f5957f371c90)
 
-Currently, two official plugins are available:
+Tasky es una aplicación de gestión de proyectos. Su interfaz intuitiva permite crear tableros personalizados, asignar tareas y colaborar con los miembros de tu equipo de manera eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Setup
+
+```sh
+npm install
+```
+
+#### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+## Demo
+[Demo](https://tasky-ochre.vercel.app/)
